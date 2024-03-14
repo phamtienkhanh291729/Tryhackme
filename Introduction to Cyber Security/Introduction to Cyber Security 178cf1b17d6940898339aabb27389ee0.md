@@ -14,12 +14,7 @@ Thường được chia ra thành 3 mảng :
 1. Web Application Security
 - Giới thiệu
     
-    Ứng dụng web giống như một “chương trình” mà chúng ta có thể sử dụng mà không cần cài đặt miễn là chúng ta có trình duyệt web tiêu chuẩn hiện đại, chẳng hạn như Firefox, Safari hoặc Chrome. Do đó, thay vì cài đặt mọi chương trình bạn cần, bạn chỉ cần duyệt trang liên quan. Sau đây là một số ví dụ về ứng dụng web:
-    
-    - Webmail như Tutanota, Protonmail, Outlook và Gmail
-    - Các bộ ứng dụng văn phòng trực tuyến như Microsoft Office 365 (Word, Excel và PowerPoint), Google Drive (Docs, Sheets và Slides) và Zoho Office (Writer, Sheet và Show)
-    - Mua sắm trực tuyến như Amazon.com, AliExpress và Etsy
-    - Cung cấp vô số dịch vụ: ngân hàng trực tuyến, chuyển tiền, dự báo thời tiết, mạng xã hội,…
+    Ứng dụng web giống như một “chương trình” mà chúng ta có thể sử dụng mà không cần cài đặt chỉ cần chúng ta có trình duyệt web, chẳng hạn như Firefox, Safari hoặc Chrome,... Do đó, thay vì cài đặt mọi chương trình bạn cần, bạn chỉ cần duyệt trang liên quan. Sau đây là một số ví dụ về ứng dụng web: Webmail (Outlook, Gmail,…)  bộ ứng dụng văn phòng trực tuyến (Microsoft Office 365, Google Drive,..); mua sắm trực tuyến( Amazon.com, AliExpress,..); cung cấp vô số dịch vụ(ngân hàng trực tuyến, chuyển tiền, mạng xã hội,…)
     
     Ứng dụng web là nó là một chương trình chạy trên một máy chủ từ xa. Máy chủ là hệ thống máy tính chạy liên tục để “phục vụ” khách hàng. Máy chủ sẽ chạy một loại chương trình cụ thể mà trình duyệt web có thể truy cập được.
     
@@ -47,7 +42,7 @@ Thường được chia ra thành 3 mảng :
     
 - Rủi ro bảo mật ứng dụng web
     
-    Giả sử bạn muốn mua một mặt hàng từ một cửa hàng trực tuyến. Có một số chức năng nhất định mà bạn mong đợi có thể thực hiện được trên ứng dụng web này. Đơn giản nhất, thứ tự trực tuyến có thể diễn ra như sau:
+    Giả sử bạn muốn mua một mặt hàng từ một cửa hàng trực tuyến. Có một số chức năng nhất định mà bạn mong đợi có thể thực hiện được trên ứng dụng web này. Thứ tự trực tuyến có thể diễn ra như sau:
     
     ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%201.png)
     
@@ -106,39 +101,25 @@ Thường được chia ra thành 3 mảng :
     
     Hàng ngày bạn sử dụng điện thoại thông minh, máy tính xách tay hoặc hầu hết mọi loại máy tính, bạn tương tác trực tiếp hoặc gián tiếp với một hệ điều hành. Các hệ điều hành bao gồm MS Windows, macOS, iOS, Android, Chrome OS và Linux. Để định nghĩa một hệ điều hành, chúng ta cần truy cập vào một thuật ngữ máy tính: phần cứng.
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%202.png)
-    
     Phần cứng máy tính đề cập đến tất cả các bộ phận và thiết bị ngoại vi của máy tính mà bạn có thể chạm vào bằng tay. Phần cứng bao gồm màn hình, bàn phím, máy in, bộ nhớ flash USB và bo mạch máy tính để bàn. Như thể hiện trong hình bên dưới, bo mạch máy tính để bàn chứa nhiều thành phần, đặc biệt là bộ xử lý trung tâm (CPU) và chip bộ nhớ (RAM). Mặc dù không được hiển thị trong hình bên dưới nhưng bo mạch máy tính để bàn thường được kết nối với thiết bị lưu trữ (HDD hoặc SSD)
     
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%202.png)
+    
+    Bo mạch máy tính để bàn là bộ phận chính của máy tính và tất cả các phần cứng khác từ bàn phím, chuột đến màn hình và máy in đều kết nối với nó. Tuy nhiên, bản thân các thành phần phần cứng sẽ vô dụng nếu bạn muốn chạy các chương trình và ứng dụng yêu thích của mình. Chúng ta cần một hệ điều hành để điều khiển và “điều khiển” chúng.
+    
     ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%203.png)
-    
-    Bo mạch máy tính để bàn là bộ phận chính của máy tính và tất cả các phần cứng khác từ bàn phím, chuột đến màn hình và máy in đều kết nối với nó. Tuy nhiên, bản thân các thành phần phần cứng sẽ vô dụng nếu bạn muốn chạy các chương trình và ứng dụng yêu thích của mình. Chúng ta cần một Hệ điều hành để điều khiển và “điều khiển” chúng.
-    
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%204.png)
     
     Hệ điều hành (OS) là lớp nằm giữa phần cứng và các ứng dụng, chương trình bạn đang chạy. Các chương trình ví dụ bạn sử dụng hàng ngày có thể bao gồm trình duyệt web như Firefox, Safari và Chrome cũng như ứng dụng nhắn tin như Signal, WhatsApp và Telegram. Tất cả các chương trình, ứng dụng không thể chạy trực tiếp trên phần cứng máy tính; tuy nhiên, chúng chạy trên hệ điều hành. Hệ điều hành cho phép các chương trình này truy cập vào phần cứng theo các quy tắc cụ thể.
     
     Một số hệ điều hành được thiết kế để chạy trên máy tính xách tay và máy tính để bàn cá nhân, chẳng hạn như MS Windows 11 và macOS. Các hệ điều hành khác được thiết kế dành riêng cho điện thoại thông minh, chẳng hạn như Android và iOS. Ngoài ra còn có hệ điều hành dành cho máy chủ; các ví dụ bao gồm [MS Windows Server 2022](https://www.microsoft.com/en-us/windows-server/) , [IBM AIX](https://www.ibm.com/products/aix) và [Oracle Solaris](https://www.oracle.com/solaris) . Cuối cùng, có những hệ điều hành mà bạn có thể sử dụng trên máy tính cá nhân và máy chủ; một ví dụ là Linux. Hình ảnh bên dưới cho thấy mức độ phổ biến của các hệ điều hành khác nhau được sử dụng để duyệt Internet theo [Statcounter](https://gs.statcounter.com/os-market-share) dựa trên dữ liệu được thu thập trong tháng 1 năm 2022.
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%205.png)
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%204.png)
     
-    Điện thoại thông minh của bạn có thể đang chạy Android hoặc iOS và bạn có thể có nhiều dữ liệu riêng tư trên đó. Những ví dụ bao gồm:
-    
-    1. Cuộc trò chuyện riêng tư với gia đình và bạn bè của bạn
-    2. Hình ảnh riêng tư với gia đình và bạn bè
-    3. Ứng dụng email mà bạn sử dụng để liên lạc cá nhân và công việc
-    4. Mật khẩu được lưu trong trình duyệt web (hoặc thậm chí trong ghi chú)
-    5. Ứng dụng ngân hàng điện tử
+    Điện thoại thông minh của bạn có thể đang chạy Android hoặc iOS và bạn có thể có nhiều dữ liệu riêng tư trên đó. Những ví dụ bao gồm: cuộc trò chuyện riêng tư với gia đình và bạn bè của bạn, hình ảnh riêng tư với gia đình và bạn bè, ứng dụng email mà bạn sử dụng để liên lạc cá nhân và công việc, mật khẩu được lưu trong trình duyệt web (hoặc thậm chí trong ghi chú), ứng dụng ngân hàng điện tử,…
     
     Danh sách các dữ liệu bí mật và riêng tư vẫn tiếp tục. Bạn không muốn người mà bạn không tin tưởng mở điện thoại và xem qua ảnh, cuộc trò chuyện và ứng dụng của bạn. Do đó, bạn cần bảo mật điện thoại và hệ điều hành của nó.
     
-    Điều tương tự cũng xảy ra với máy tính xách tay hoặc máy tính chạy MS Windows, macOS hoặc Linux của bạn. Máy tính của bạn rất có thể sẽ chứa nhiều thông tin như:
-    
-    1. Các tập tin bí mật liên quan đến công việc hoặc trường đại học của bạn
-    2. Các tập tin cá nhân riêng tư, chẳng hạn như bản sao ID hoặc hộ chiếu của bạn
-    3. Các chương trình email, chẳng hạn như MS Outlook và Mozilla Thunderbird
-    4. Mật khẩu được lưu trong trình duyệt web và các ứng dụng khác
-    5. Bản sao ảnh của máy ảnh kỹ thuật số và điện thoại thông minh
+    Điều tương tự cũng xảy ra với máy tính xách tay hoặc máy tính chạy MS Windows, macOS hoặc Linux của bạn. 
     
     Danh sách có thể rất dài, tùy thuộc vào loại người dùng. Và xem xét tính chất của dữ liệu đã lưu, bạn muốn đảm bảo rằng dữ liệu của mình được an toàn. Khi nói về bảo mật, chúng ta nên nghĩ đến việc bảo vệ ba điều:
     
@@ -146,7 +127,7 @@ Thường được chia ra thành 3 mảng :
     - Tính toàn vẹn: Điều quan trọng là không ai có thể giả mạo các tệp được lưu trữ trên hệ thống của bạn hoặc trong khi được truyền trên mạng.
     - Tính khả dụng: Bạn muốn máy tính xách tay hoặc điện thoại thông minh của mình luôn sẵn sàng để sử dụng bất cứ lúc nào bạn quyết định sử dụng.
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%206.png)
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%205.png)
     
 - 1 số bảo mật hệ điều hành phổ biến
     
@@ -189,7 +170,7 @@ Thường được chia ra thành 3 mảng :
     
     An ninh mạng bao gồm các giải pháp phần cứng và phần mềm khác nhau để đạt được các mục tiêu bảo mật đã đặt ra. Giải pháp phần cứng đề cập đến các thiết bị bạn thiết lập trong mạng để bảo vệ an ninh mạng của mình. Chúng là phần cứng nên bạn có thể cầm chúng theo đúng nghĩa đen. Một thiết bị phần cứng có thể trông giống như hình ảnh bên dưới.
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%207.png)
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%206.png)
     
     Ví dụ về các thiết bị phần cứng bao gồm:
     
@@ -206,7 +187,7 @@ Thường được chia ra thành 3 mảng :
     
     Mỗi “hoạt động” đều yêu cầu một số hình thức lập kế hoạch để đạt được thành công. Nếu bạn quan tâm đến chụp ảnh động vật hoang dã, bạn không thể chỉ cầm máy ảnh và đi vào rừng trừ khi bạn không quan tâm đến kết quả. Để có chuyến tham quan chụp ảnh động vật hoang dã an toàn và thành công, bạn cần tìm hiểu thêm về những loài động vật bạn muốn chụp bằng máy ảnh của mình. Điều này bao gồm thói quen của động vật và những nguy hiểm cần tránh. Điều tương tự cũng sẽ áp dụng cho một hoạt động quân sự chống lại mục tiêu hoặc đột nhập vào mạng mục tiêu 
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%208.png)
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%207.png)
     
     Việc đột nhập vào mạng mục tiêu thường bao gồm một số bước. Theo [Lockheed Martin](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) ,  Cyber Kill Chain có bảy bước:
     
@@ -244,7 +225,7 @@ An ninh phòng thủ có phần trái ngược với an ninh tấn công vì nó
 
 Đội xanh là một phần của bối cảnh an ninh phòng thủ.
 
-![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%209.png)
+![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%208.png)
 
 - Một số nhiệm vụ liên quan đến an ninh phòng thủ bao gồm:
     - Nhận thức về an ninh mạng của người dùng: đào tạo người dùng về an ninh mạng giúp bảo vệ khỏi các cuộc tấn công khác nhau nhắm vào hệ thống của họ.
@@ -269,11 +250,11 @@ Thường chia làm 2 mảng:
     
     Hoạt động an ninh bao gồm nhiều nhiệm vụ khác nhau để đảm bảo bảo vệ; một trong những nhiệm vụ như vậy là thu thập thông tin về mối đe dọa.
     
-    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%2010.png)
+    ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%209.png)
     
     - **Threat Intelligence**
         
-        Trong bối cảnh này, *intelligence* đề cập đến thông tin bạn thu thập được về kẻ thù thực tế và tiềm năng. Mối *đe dọa* là bất kỳ hành động nào có thể phá vỡ hoặc ảnh hưởng xấu đến hệ thống. Thông tin về mối đe dọa nhằm mục đích thu thập thông tin để giúp công ty chuẩn bị tốt hơn trước các đối thủ tiềm năng. Mục đích là để đạt được *khả năng phòng thủ trước mối đe dọa* . Các công ty khác nhau có những đối thủ khác nhau. Một số đối thủ có thể tìm cách đánh cắp dữ liệu khách hàng từ nhà cung cấp dịch vụ di động; tuy nhiên, các đối thủ khác quan tâm đến việc tạm dừng sản xuất ở một nhà máy lọc dầu. Các đối thủ ví dụ bao gồm đội quân mạng cấp quốc gia hoạt động vì lý do chính trị và nhóm ransomware hoạt động vì mục đích tài chính. Dựa trên công ty (mục tiêu), chúng ta có thể mong đợi những đối thủ.
+         I*ntelligence* đề cập đến thông tin bạn thu thập được về kẻ thù thực tế và tiềm năng. Mối *đe dọa* là bất kỳ hành động nào có thể phá vỡ hoặc ảnh hưởng xấu đến hệ thống. Thông tin về mối đe dọa nhằm mục đích thu thập thông tin để giúp công ty chuẩn bị tốt hơn trước các đối thủ tiềm năng. Mục đích là để đạt được *khả năng phòng thủ trước mối đe dọa* . Các công ty khác nhau có những đối thủ khác nhau. Một số đối thủ có thể tìm cách đánh cắp dữ liệu khách hàng từ nhà cung cấp dịch vụ di động; tuy nhiên, các đối thủ khác quan tâm đến việc tạm dừng sản xuất ở một nhà máy lọc dầu. Các đối thủ ví dụ bao gồm đội quân mạng cấp quốc gia hoạt động vì lý do chính trị và nhóm ransomware hoạt động vì mục đích tài chính. Dựa trên công ty (mục tiêu), chúng ta có thể mong đợi những đối thủ.
         
         *Intelligence* cần dữ liệu. Dữ liệu phải được thu thập, xử lý và phân tích. Việc thu thập dữ liệu được thực hiện từ các nguồn cục bộ như nhật ký mạng và các nguồn công cộng như diễn đàn. Việc xử lý dữ liệu nhằm mục đích sắp xếp chúng thành một định dạng phù hợp để phân tích. Giai đoạn phân tích nhằm tìm thêm thông tin về những kẻ tấn công và động cơ của chúng; hơn nữa, nó nhằm mục đích tạo ra một danh sách các khuyến nghị và các bước có thể thực hiện được.
         
@@ -382,7 +363,7 @@ Thường chia làm 2 mảng:
         3. Ngăn chặn, loại bỏ và phục hồi: Sau khi phát hiện sự cố, điều quan trọng là phải ngăn chặn nó ảnh hưởng đến các hệ thống khác, loại bỏ nó và khôi phục các hệ thống bị ảnh hưởng. Ví dụ: khi chúng tôi nhận thấy một hệ thống bị nhiễm vi-rút máy tính, chúng tôi muốn ngăn chặn (chứa) vi-rút lây lan sang các hệ thống khác, làm sạch (tiêu diệt) vi-rút và đảm bảo khôi phục hệ thống thích hợp.
         4. Hoạt động sau sự cố: Sau khi khôi phục thành công, một báo cáo sẽ được tạo và bài học kinh nghiệm được chia sẻ để ngăn chặn những sự cố tương tự trong tương lai.
         
-        ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%2011.png)
+        ![Untitled](Introduction%20to%20Cyber%20Security%20178cf1b17d6940898339aabb27389ee0/Untitled%2010.png)
         
     - **Phân tích phần mềm độc hại(Malware Analysis)**
         
